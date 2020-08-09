@@ -13,5 +13,9 @@
     {
       "path": "./tsconfig.spec.json"
     }
-]
+  ],
+  "paths" : {
+    "@app/*": ["src/app/*"],
+    "@env/*": ["src/environments/*"]
+  },
 }
